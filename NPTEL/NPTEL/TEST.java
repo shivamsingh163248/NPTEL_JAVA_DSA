@@ -105,6 +105,14 @@ public class TEST {
 	}
 	
 	
+	// now creating the printfunction 
+	
+	public static <E> void print(List<E>pri) {
+		for (E astory : pri) {
+			System.out.println(astory);
+		}
+	}
+	
 	
 	public static void main(String[] args) {
 		
@@ -115,6 +123,8 @@ public class TEST {
 		// now we are are adding the elemnt in the list 
 		shivam.add(234) ; 
 		shivam.add(9) ; 
+		shivam.add(153);
+		
 		// now agian adding the element in the number 
 		
 		
@@ -130,6 +140,9 @@ public class TEST {
 		
 		// now creating the refrence list of thestring 
 		List<String>store = astrony(shivam) ; 
+		print(store);
+		print(shivam);
+		// print();
 		
 		
 		
