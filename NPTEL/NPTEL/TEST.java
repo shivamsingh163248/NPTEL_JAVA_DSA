@@ -3,6 +3,7 @@ package NPTEL;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 
@@ -111,6 +112,20 @@ public class TEST {
 		for (E astory : pri) {
 			System.out.println(astory);
 		}
+	}
+	
+	// now creating the another function for the taking the input 
+	
+	public static List<Integer>takeinput(){
+		
+		// creating the for loop and take input 
+		System.out.println("enter the number you want to add ");
+		// creating the scanner function 
+		Scanner input = new Scanner(System.in) ; 
+		
+		
+		
+		
 	}
 	
 	
