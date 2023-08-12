@@ -8,6 +8,8 @@ public class testallclass {
 		// now calling te object 
 		child1 shivam = new child1() ; 
 		shivam.add(100, 300 );
+		
+		// this comment creating the test purpoose 
 
 	}
 
