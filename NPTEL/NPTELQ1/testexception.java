@@ -14,7 +14,12 @@ public class testexception {
 		int a = 0 ; 
 		int b = 7 ; 
 		
-		shivam.add(a, b);
+		try {
+			shivam.add(a, b);
+		} catch (shivamerror e) {
+			// TODO Auto-generated catch block
+			System.out.println("this is the input by the user 0 ");
+		}
 
 	}
 
